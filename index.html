@@ -1,17 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Minha Ideia Empreendedora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro da Saudade</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Descubra seu potencial!</h1>
+    <header>
+        <h1>Quadro da Saudade</h1>
+        <p>Reviva momentos com quem você ama, mesmo sem fotos!</p>
+    </header>
 
-    <input type="text" id="nomeUsuario" placeholder="Digite seu nome">
-    <button onclick="gerarMensagem()">Descobrir</button>
+    <main>
+        <section class="quadro-section">
+            <div class="quadro">
+                <div class="ramo-rosa"></div>
+                <img src="https://i.imgur.com/OvMZBs9.jpg" alt="Sua memória aparecerá aqui">
+            </div>
+        </section>
 
-    <p id="resultado"></p>
+        <section class="descricao-section">
+            <h2>Descreva a pessoa que você quer lembrar</h2>
+            <textarea placeholder="Escreva algo sobre a pessoa..."></textarea>
+            <br>
+            <button>Visualizar no Quadro</button>
+            <p class="tip">Passe o mouse sobre o quadro para ver a imagem simulada.</p>
+        </section>
+    </main>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2026 Quadro da Saudade</p>
+    </footer>
+
 </body>
 </html>
